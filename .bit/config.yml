@@ -10,13 +10,13 @@ before:
       body: 1.1-Week 1 Step 1.md
 steps:
     - title: 'Week 1: Week 1 Step 1'
-      description: This is the Learning Lab content. (1.1)
+      description: What is JavaScript?
       event: pull_request.closed
       link: '{{ repoUrl }}/issues'
       actions:
         - type: respond
           with: 1.2-Week 1 Step 2.md
-          files: ['README.md', 'js/config.js', 'index.html']
+          files: ['README.md']
     - title: 'Week 1: Week 1 Step 2'
       description: This is the Learning Lab content. (1.2)
       event: pull_request.closed
