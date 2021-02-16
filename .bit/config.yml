@@ -18,7 +18,7 @@ steps:
           with: 1.2-Week 1 Step 2.md
           files: ['README.md']
     - title: 'Week 1: Week 1 Step 2'
-      description: This is the Learning Lab content. (1.2)
+      description: What are APIs?
       event: pull_request.closed
       link: '{{ repoUrl }}/issues'
       actions:
