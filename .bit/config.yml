@@ -31,8 +31,16 @@ steps:
       link: '{{ repoUrl }}/issues'
       actions:
         - type: respond
-          with: feedback.md
+          with: 1.4-Week 1 Step 4.md
           files: ['index.html', 'js/config.js']
+    - title: 'Week 1: Week 1 Step 4'
+      description: Setting Up Our APIs
+      event: pull_request.closed
+      link: '{{ repoUrl }}/issues'
+      actions:
+        - type: respond
+          with: feedback.md
+          files: ['notes.md']
     - title: 'Week 1: Feedback'
       description: Provide your feedback for Week 1!
       event: issue_comment.created
