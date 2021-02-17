@@ -40,7 +40,7 @@ steps:
       actions:
         - type: respond
           with: 1.5-Week 1 Step 6.md
-          files: ['notes.md']
+          files: ['notes.md', '.gitignore']
     - title: 'Week 1: Week 1 Step 6'
       description: Let's Get The Tweets
       event: pull_request.closed
