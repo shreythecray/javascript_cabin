@@ -39,8 +39,16 @@ steps:
       link: '{{ repoUrl }}/issues'
       actions:
         - type: respond
-          with: 1.5-Week 1 Step 6.md
+          with: 1.5-Week 1 Step 5.md
           files: ['notes.md', '.gitignore']
+    - title: 'Week 1: Week 1 Step 5'
+      description: Git:
+      event: pull_request.closed
+      link: '{{ repoUrl }}/issues'
+      actions:
+        - type: respond
+          with: 1.5-Week 1 Step 6.md
+          files: ['app.js']
     - title: 'Week 1: Week 1 Step 6'
       description: Let's Get The Tweets
       event: pull_request.closed
