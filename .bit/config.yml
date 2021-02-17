@@ -50,7 +50,7 @@ steps:
           with: 1.5-Week 1 Step 6.md
           files: ['app.js']
     - title: 'Week 1: Week 1 Step 6'
-      description: Let's Get The Tweets
+      description: Going Async
       event: pull_request.closed
       link: '{{ repoUrl }}/issues'
       actions:
